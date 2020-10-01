@@ -2,7 +2,9 @@ package Bencher::Scenario::DataSahVSTypeTiny::Validate;
 
 use 5.010001;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 eval "package main; use Types::Standard qw(ArrayRef Int)";
@@ -22,7 +24,7 @@ our $scenario = {
         {
             name => 'tt',
             #module => 'Types::Standard',
-            code_template => 'state $v = <type:raw>; $v->check(<data>)',
+            code_template => 'state $v = (<type:raw>)->compiled_check; $v->(<data>)',
             tags => ['tt'],
         },
     ],
