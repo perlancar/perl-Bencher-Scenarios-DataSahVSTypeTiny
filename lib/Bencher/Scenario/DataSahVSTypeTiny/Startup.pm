@@ -1,6 +1,8 @@
 package Bencher::Scenario::DataSahVSTypeTiny::Startup;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 our $scenario = {

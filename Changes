@@ -1,3 +1,8 @@
+0.003   2020-10-01  Released-By: PERLANCAR; Urgency: medium
+
+	- Use compiled_check() for Type::Tiny (RT#133450).
+
+
 0.002   2017-01-25  Released-By: PERLANCAR
 
 	- No functional changes.

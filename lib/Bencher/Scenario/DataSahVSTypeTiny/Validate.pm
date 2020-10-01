@@ -12,7 +12,7 @@ eval "package main; use Types::Standard qw(ArrayRef Int)";
 our $scenario = {
     summary => 'Benchmark validation',
     modules => {
-        'Data::Sah' => {version=>'0.84'},
+        'Data::Sah' => {version=>'0.907'},
     },
     participants => [
         {
